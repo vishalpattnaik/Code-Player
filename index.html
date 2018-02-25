@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+        
+        <title>Code Player</title>
+        
+        <script type="text/javascript" src="jquery.min.js"></script>
+        
+       <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+ 
+    <body>
+       
+        <div id="header">
+        
+            <div id="logo">
+                
+                <img id="logo-image" src="code-player-logo.png">
+            
+            Code Player 
+            
+            </div>
+        
+        <div id="buttonContainer">
+            
+            <div class="pressButton active" id="html">HTML</div>
+            
+            <div class="pressButton" id="css">CSS</div>
+            
+            <div class="pressButton" id="javascript">JavaScript</div>
+            
+            <div class="pressButton active" id="output">Output</div>
+            
+            
+            
+            </div>
+        
+        
+        </div>
+        
+        <div id="bodyContainer">
+            <div>
+                
+            <textarea id="htmlPanel" class="panel"><p id="paragraph">Sample Text</p></textarea>
+                
+            <textarea id="cssPanel" class="panel hidden"> p { color: green; }</textarea>
+                
+            <textarea id="javascriptPanel" class="panel hidden">document.getElementById("paragraph").innerHTML = "Sample Javascript";</textarea>
+            
+            <iframe id="outputPanel" class="panel"></iframe>    
+          
+            </div>
+        
+   
+        </div>
+        
+       
+        <script type="text/javascript" src="main.js"></script>
+        
+    </body>
+    
+
+</html> 
